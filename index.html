@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="+60 Oportunidades para Redução da Carga Tributária" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>+60 Oportunidades | Redução da Carga Tributária</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body oncontextmenu="return false;" ondragstart="return false;">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-plus">+</span>60 Oportunidades
+      </a>
+      <nav class="nav">
+        <a href="#intro">Intro</a>
+        <a href="#oportunidades">Oportunidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menu" id="menuToggle">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <p class="hero-author">MATERIAL TRIBUTÁRIO</p>
+      <h1 class="hero-title">
+        <span class="hero-plus">+</span>60
+        <span class="hero-subtitle">OPORTUNIDADES</span>
+      </h1>
+      <p class="hero-desc">PARA REDUÇÃO DA CARGA TRIBUTÁRIA</p>
+      <a href="#oportunidades" class="btn btn-primary">Explorar oportunidades</a>
+    </div>
+  </section>
+
+  <section id="intro" class="intro section">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-text">
+          <h2 class="section-title">INTRO</h2>
+          <p>
+            Apresentação de <strong>oportunidades tributárias</strong> que têm o potencial de gerar economia tributária futura, bem como a recuperação de valores recolhidos indevidamente no passado.
+          </p>
+          <p>
+            As teses e planos de ação reunidos neste material abrangem desde pessoas físicas e pequenas empresas até grandes corporações, com foco em <strong>redução de carga e recuperação de créditos</strong>.
+          </p>
+          <p>
+            Utilize a busca e os filtros abaixo para localizar as oportunidades mais relevantes ao seu perfil.
+          </p>
+        </div>
+        <div class="intro-stats">
+          <div class="stat-card">
+            <span class="stat-number">+60</span>
+            <span class="stat-label">Oportunidades</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">5 anos</span>
+            <span class="stat-label">Recuperação retroativa</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">Federal + Estadual</span>
+            <span class="stat-label">Tributos cobertos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="oportunidades" class="oportunidades section">
+    <div class="container">
+      <h2 class="section-title">Oportunidades</h2>
+      <p class="section-subtitle">Clique em cada card para ver teses, oportunidade e plano de ação. O conteúdo visível pode ser selecionado e copiado.</p>
+
+      <div class="controls">
+        <div class="search-box">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input type="search" id="searchInput" placeholder="Buscar por tema, tributo ou palavra-chave..." autocomplete="off" />
+        </div>
+        <div class="filter-chips" id="filterChips">
+          <button class="chip active" data-filter="all">Todas</button>
+          <button class="chip" data-filter="pis-cofins">PIS/COFINS</button>
+          <button class="chip" data-filter="icms">ICMS</button>
+          <button class="chip" data-filter="irpj-csll">IRPJ/CSLL</button>
+          <button class="chip" data-filter="previdenciario">Previdenciário</button>
+          <button class="chip" data-filter="ipi">IPI</button>
+          <button class="chip" data-filter="ibs-cbs">IBS/CBS</button>
+          <button class="chip" data-filter="outros">Outros</button>
+        </div>
+      </div>
+
+      <div class="cards-grid" id="cardsGrid"></div>
+      <p class="no-results" id="noResults" hidden>Nenhuma oportunidade encontrada.</p>
+    </div>
+  </section>
+
+  <section class="cta section">
+    <div class="container cta-inner">
+      <h2>Quer avaliar qual oportunidade se aplica à sua empresa?</h2>
+      <p>Consulte um especialista em direito tributário para análise individualizada do potencial de economia e recuperação.</p>
+    </div>
+  </section>
+
+  <footer id="contato" class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-plus">+</span>60 Oportunidades
+        <p>para redução da carga tributária</p>
+      </div>
+      <p class="footer-note">Este material tem caráter informativo e não substitui aconselhamento jurídico individualizado.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
