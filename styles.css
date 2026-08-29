@@ -635,3 +635,34 @@ body {
     padding-top: 1rem;
   }
 }
+
+
+/* CTA detalhe (ex.: oportunidade #22) */
+.card-detail-cta {
+  margin-top: 0.35rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(212, 168, 75, 0.15);
+}
+
+.btn-detail {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: linear-gradient(135deg, var(--gold), #b8862d);
+  color: #0a1f14;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 0.65rem 1.15rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn-detail:hover {
+  background: var(--gold-light);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(212, 168, 75, 0.35);
+}
